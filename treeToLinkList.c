@@ -1,3 +1,6 @@
+/**
+ * 把二元查找树转变成排序的双向链表
+ */
 #include<stdio.h>
 
 typedef struct BTreeNode
@@ -49,9 +52,5 @@ BTreeNode* treeToLinkList(BTreeNode* root)
     BTreeNode* pTail = NULL;
     doChange(pHead, pTail, root);
     return pHead;
-}
-
-int main()
-{
 }
 
