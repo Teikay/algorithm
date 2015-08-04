@@ -1,5 +1,8 @@
 /**
  * 把二元查找树转变成排序的双向链表
+ *This is a traditional problem that can be solved using recursion.
+ *For each node, connect the double linked lists created from left 
+ *and right child node to form a full list.
  */
 #include<stdio.h>
 
